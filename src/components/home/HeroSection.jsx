@@ -35,7 +35,7 @@ export default function HeroSection() {
           >
             <h1 className="text-5xl md:text-7xl text-white mb-4 flex items-center justify-center leading-none" style={{ textShadow: '0 2px 20px rgba(255,255,255,0.1)' }}>
               <img 
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/8a6f08ac1_EliteLogisticsLogoSymbol.png" 
+                src="/favicon.ico" // TODO: Replace with your logo
                 alt="Elite E Logo"
                 className="h-[0.85em] w-auto mr-1 filter brightness-0 invert"
                 style={{

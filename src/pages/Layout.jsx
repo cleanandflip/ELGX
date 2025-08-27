@@ -89,7 +89,7 @@ export default function Layout({ children, currentPageName }) {
           {/* Logo */}
           <Link to={createPageUrl("Home")} className="flex items-center hover:scale-105 transition-transform duration-200">
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/8a6f08ac1_EliteLogisticsLogoSymbol.png" 
+              src="" // base44 logo removed
               alt="Elite Logistics Icon"
               className="h-14 w-auto"
             />
@@ -176,7 +176,7 @@ export default function Layout({ children, currentPageName }) {
               <div className="mb-6">
                 <div className="flex items-center gap-4">
                   <img 
-                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/8a6f08ac1_EliteLogisticsLogoSymbol.png" 
+                    src="" // base44 logo removed
                     alt="Elite Logistics Icon"
                     className="h-16 w-auto"
                   />
