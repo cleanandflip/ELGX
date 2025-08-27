@@ -41,14 +41,10 @@ function PagesContent() {
     const location = useLocation();
     const currentPage = _getCurrentPage(location.pathname);
     
-    const isPlasmic = location.pathname === '/plasmic-host';
-    
-    if (isPlasmic) {
-        return (
-            <Routes>
-                <Route path="/plasmic-host" element={<PlasmicHost />} />
-            </Routes>
-        );
+    // Check for Plasmic route
+    if (location.pathname === '/plasmic-host') {
+        console.log('Rendering Plasmic host page');
+        return <PlasmicHost />;
     }
 
     return (
